@@ -1,0 +1,82 @@
+{
+    "name": "activitybar-separator",
+    "displayName": "Activitybar Separator",
+    "description": "seperators for activitybar icons to make it easier to find what u need",
+    "version": "0.0.1",
+    "publisher": "ctf0",
+    "repository": "https://github.com/ctf0/vscode-activitybar-separator",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "icon": "img/multi.png",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "activitybar",
+        "separator"
+    ],
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "sep-1",
+                    "title": "sep-1",
+                    "icon": "img/single.png"
+                },
+                {
+                    "id": "sep-2",
+                    "title": "sep-2",
+                    "icon": "img/single.png"
+                },
+                {
+                    "id": "sep-3",
+                    "title": "sep-3",
+                    "icon": "img/single.png"
+                },
+                {
+                    "id": "sep-4",
+                    "title": "sep-4",
+                    "icon": "img/single.png"
+                },
+                {
+                    "id": "sep-5",
+                    "title": "sep-5",
+                    "icon": "img/single.png"
+                }
+            ]
+        },
+        "views": {
+            "sep-1": [
+                {
+                    "id": "sep-1",
+                    "name": "empty-view"
+                }
+            ],
+            "sep-2": [
+                {
+                    "id": "sep-2",
+                    "name": "empty-view"
+                }
+            ],
+            "sep-3": [
+                {
+                    "id": "sep-3",
+                    "name": "empty-view"
+                }
+            ],
+            "sep-4": [
+                {
+                    "id": "sep-4",
+                    "name": "empty-view"
+                }
+            ],
+            "sep-5": [
+                {
+                    "id": "sep-5",
+                    "name": "empty-view"
+                }
+            ]
+        }
+    }
+}
